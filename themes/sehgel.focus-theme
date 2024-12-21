@@ -1,7 +1,7 @@
 [13]  # Version number. Do not delete.
 
 [colors]
-background0:                            2E2E2EFF
+background0:                            302D28FF
 background1:                            282828FF
 background2:                            29251CFF
 background3:                            24211EFF
@@ -15,15 +15,15 @@ scrollbar:                              28282819
 scrollbar_hover:                        484848FF
 scrollbar_background:                   4848484C
 cursor:                                 AFA78FFF
-cursor_inactive:                        8FAF9FFF
+cursor_inactive:                        24221FFF
 paste_animation:                        4A4130FF
-splitter:                               2E3330FF
-splitter_hover:                         2E3330FF
+splitter:                               2A2A24FF
+splitter_hover:                         33332BFF
 letter_highlight:                       DFDFBFFF
 list_cursor_lite:                       2E33304C
 list_cursor:                            504126FF
-shadow_dark:                            0E161C33
-shadow_transparent:                     0E161C00
+shadow_dark:                            1B170E33
+shadow_transparent:                     1B160E00
 text_input_label:                       E3DCCFFF
 
 ui_default:                             D2C5B2FF
@@ -36,15 +36,15 @@ ui_error_bright:                        FF0000FF
 ui_success:                             227722FF
 
 region_scope_export:                    302D28FF
-region_scope_file:                      26231FFF
-region_scope_module:                    272420FF
+region_scope_file:                      302D28FF
+region_scope_module:                    302D28FF
 region_header:                          1A5152FF
 region_success:                         226022FF
 region_warning:                         986032FF
 region_error:                           772222FF
-region_heredoc:                         24211EFF
+region_heredoc:                         302D28FF
 
-build_panel_background:                 1F1F1FFF
+build_panel_background:                 2B2925FF
 build_panel_scrollbar:                  AD996719
 build_panel_scrollbar_hover:            B39E4D4C
 build_panel_scrollbar_background:       2626244C
@@ -56,7 +56,7 @@ code_type:                              F8A389FF
 code_function:                          D8C391FF
 code_punctuation:                       DCDCCCFF
 code_operation:                         F0EFD0FF
-code_string_literal:                    F2CE93FF
+code_string_literal:                    CF9F57FF
 code_value:                             FFFFFFC2
 code_highlight:                         D89B75FF
 code_error:                             FF0000FF

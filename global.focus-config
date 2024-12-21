@@ -45,7 +45,7 @@ show_paste_effect:                                  true
 disable_file_open_close_animations:                 false
 double_shift_to_search_in_workspace:                false
 tab_size:                                           4
-indent_using:                                       spaces  # options: spaces, tabs
+indent_using:                                       tabs  # options: spaces, tabs
 strip_trailing_whitespace_on_save:                  except_lines_with_cursor
 smooth_scrolling:                                   true
 scroll_beyond_last_line:                            true
