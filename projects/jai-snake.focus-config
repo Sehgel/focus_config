@@ -18,7 +18,7 @@ auto_jump_to_error:     true
 
 [Debug Build And Run]   # <- command name. Can be arbitrary
 build_working_dir:      C:/dev/jai/jai-snake
-build_command:          jai %FILE% -exe %FILE_NAME_NO_EXTENSION% -output_path %BUILD_WORKING_DIR% -x64# should be an executable or a script
+build_command:          jai %BUILD_WORKING_DIR%/main.jai -exe %FILE_NAME_NO_EXTENSION% -output_path %BUILD_WORKING_DIR% -x64# should be an executable or a script
 # timeout_in_seconds:     5             # if you don't want a timeout, don't specify it
 run_working_dir:        C:/dev/jai/jai-snake      # working dir for the run command
 run_command:            %FILE_NAME_NO_EXTENSION%.exe      # will be run if build succeeds
