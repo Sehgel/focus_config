@@ -5,11 +5,11 @@
 # Example:
 # C:/projects/my-project
 # C:/jai
-C:/dev/jai/jai-snake/.
+C:/dev/jai/2d_collision_learning/.
 C:/bin/jai/.
 
 [[build commands]]
-build_working_dir:      C:/dev/jai/jai-snake
+build_working_dir:      C:/dev/jai/2d_collision_learning
 open_panel_on_build:    true  #  <- any settings specified here will apply to all commands unless overridden
 # close_panel_on_success: false
 clear_build_output_before_running: true
@@ -17,16 +17,16 @@ error_regex:            ^(?P<file>.*):(?P<line>\d+),(?P<col>\d+): (?P<type>Error
 auto_jump_to_error:     true
 
 [Debug Build And Run]   # <- command name. Can be arbitrary
-build_working_dir:      C:/dev/jai/jai-snake
-build_command:          jai %BUILD_WORKING_DIR%/main.jai -exe snake -output_path %BUILD_WORKING_DIR% -x64# should be an executable or a script
+build_working_dir:      C:/dev/jai/2d_collision_learning
+build_command:          jai %BUILD_WORKING_DIR%/main.jai -exe %FILE_NAME_NO_EXTENSION% -output_path %BUILD_WORKING_DIR% -x64# should be an executable or a script
 # timeout_in_seconds:     5             # if you don't want a timeout, don't specify it
-run_working_dir:        C:/dev/jai/jai-snake      # working dir for the run command
-run_command:            snake.exe      # will be run if build succeeds
+run_working_dir:        C:/dev/jai/2d_collision_learning      # working dir for the run command
+run_command:            %FILE_NAME_NO_EXTENSION%.exe      # will be run if build succeeds
 key_binding:            F3
 
 [Run]                   # <- You could have commands that don't build anything and just run something
-run_working_dir:        C:/dev/jai/jai-snake
-run_command:            snake.exe
+run_working_dir:        C:/dev/jai/2d_collision_learning
+run_command:            %FILE_NAME_NO_EXTENSION%.exe
 key_binding:            F2
 
 # [Release]
