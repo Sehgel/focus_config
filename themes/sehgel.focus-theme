@@ -1,11 +1,11 @@
 [13]  # Version number. Do not delete.
 
 [colors]
-background0:                            302D28FF
+background0:                            302D28FF#Main background
 background1:                            282828FF
 background2:                            29251CFF
 background3:                            24211EFF
-background4:                            92550506
+background4:                            896C4932
 selection_active:                       4A4230FF
 selection_inactive:                     484848FF
 selection_highlight:                    FCF7ED26
@@ -27,7 +27,7 @@ shadow_transparent:                     1B160E00
 text_input_label:                       E3DCCFFF
 
 ui_default:                             D2C5B2FF
-ui_dim:                                 8E7653FF
+ui_dim:                                 8E7653FF#Line number
 ui_neutral:                             4C4C4CFF
 ui_warning:                             F8B74DFF
 ui_warning_dim:                         986032FF

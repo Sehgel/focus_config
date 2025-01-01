@@ -29,9 +29,11 @@ run_working_dir:        C:/dev/jai/jai-snake
 run_command:            snake.exe
 key_binding:            F2
 
-# [Release]
+[Release]
 # build_command:          jai first.jai - release
-# key_binding:            F9
+build_command:          jai %BUILD_WORKING_DIR%/main.jai -exe snake -output_path %BUILD_WORKING_DIR%/release/ -x64# should be an executable or a script
+key_binding:            F10
+
 
 
 # Example error regexes:
